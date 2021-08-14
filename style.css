@@ -107,3 +107,10 @@ strong{
     margin: 0 5px;
     font-size: 1.8rem;
 }
+
+
+.invalid{
+    border: 1px solid red;
+    color: red;
+    box-shadow: 0px 0px 10px 0px red;
+}
