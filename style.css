@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: arial;
+}
+
+section#calculate-section {
+    width: 92%;
+    margin: 40px auto;
+}
+
+section#calculate-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    word-spacing: 2rem;
+}
+
+div#calculator-container {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+div#input-section,#output-section {
+    border: 3px solid #999;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div#input-section h2, #output-section h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+input {
+    padding: 10px 15px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+div#output-box {
+    border: 3px solid #777;
+    width: 70%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    border-radius: 10px;
+}
+
+.input-lebel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button#submit-btn {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 10px 186px;
+    width: 130px;
+    cursor: pointer;
+}
+
+div#letter-grate-box {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    overflow: overlay;
+}
+
+div#letter-grate-box p {
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #999;
+}
+
+b{
+    color: #ff6ff6;
+    font-size: 2rem;
+    margin: 0px 10px;
+}
+strong{
+    color: red;
+    margin: 0 5px;
+    font-size: 1.8rem;
+}

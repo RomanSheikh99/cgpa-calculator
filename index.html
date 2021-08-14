@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA Calculator</title>
+</head>
+<body>
+    
+    <section id="calculate-section">
+        <h1>cgpa calculator</h1>
+        <div id="calculator-container">
+            <div id="input-section">
+                <h2>enter all semister Result in point</h2>
+               <div class="input-lebel">
+                <label for="1st">
+                    <h3>1st Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-1">
+                </label>
+                <label for="2nd">
+                    <h3>2nd Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-2">
+                </label>
+                <label for="3rd">
+                    <h3>3rd Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-3">
+                </label>
+                <label for="4th">
+                    <h3>4th Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-4">
+                </label>
+                <label for="5th">
+                    <h3>5th Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-5">
+                </label>
+                <label for="6th">
+                    <h3>6th Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-6">
+                </label>
+                <label for="7th">
+                    <h3>7th Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-7">
+                </label>
+                <label for="8th">
+                    <h3>8th Semister Result</h3>
+                    <input type="text" placeholder="Input Result In Point" name="" id="input-box-8">
+                </label>
+               </div>
+               <button id="submit-btn">Submit</button>
+            </div>
+            <div id="output-section">
+                <h2>your result is</h2>
+                <div id="output-box">
+                    <div id="result-box">0.00</div>
+                    <div id="result-text">Cgpa</div>
+                </div>
+                <div id="letter-grate-box">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+   
+        // document.getElementById('submit-btn').addEventListener('click',function(){
+        //     let num1 = document.getElementById('input-box-1');
+        //     if(num1.value > 4 || num1.value < 1){
+        //         document.getElementById('letter-grate-box').innerHTML = ''
+        //     }
+        //     else if(num1.value == 4.00){
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got <b>A+</b> In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 3.75 && num1.value < 4){
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>A</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 3.50 && num1.value <= 3.74){
+ 
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>A-</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 3.25 && num1.value <= 3.49){
+ 
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>B+</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 3.00 && num1.value <= 3.24){
+
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>B</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 2.75 && num1.value <= 2.99){
+ 
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>B-</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 2.50 && num1.value <= 2.74){
+ 
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>C+</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 2.25 && num1.value <= 2.49){
+
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>C</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 2.00 && num1.value <= 2.24){
+ 
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>D+</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value >= 1.60 && num1.value <= 1.99){
+
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<b>D</b>In 1st Semester</p>'
+        //     }
+        //     else if(num1.value > 1.60){
+        //         document.getElementById('letter-grate-box').innerHTML = '<p>You Got<strong>Fail</strong>In 1st Semester</p>'
+        //     }
+        //     else if(typeof(num1.value) != 'number'){
+        //         document.getElementById('letter-grate-box').innerHTML = ''
+        //     }
+        //     else{
+
+        //         document.getElementById('letter-grate-box').innerHTML = ''
+        //     }
+        // })
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
